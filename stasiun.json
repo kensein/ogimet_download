@@ -1,0 +1,747 @@
+{
+    "96001": {
+      "kota": "Sabang / Cut Bau",
+      "lat": 5.8667,
+      "lon": 95.3167
+    },
+    "96009": {
+      "kota": "Lhokseumawe / Malikussaleh",
+      "lat": 5.2333,
+      "lon": 97.2
+    },
+    "96011": {
+      "kota": "Banda Aceh / Blangbintang",
+      "lat": 5.5167,
+      "lon": 95.4167
+    },
+    "96015": {
+      "kota": "Meulaboh / Cut Nyak Dhien",
+      "lat": 4.25,
+      "lon": 96.1167
+    },
+    "96033": {
+      "kota": "Belawan",
+      "lat": 3.8,
+      "lon": 98.7
+    },
+    "96035": {
+      "kota": "Medan / Polonia",
+      "lat": 3.5667,
+      "lon": 98.6833
+    },
+    "96039": {
+      "kota": "Tebingtinggi",
+      "lat": 3.3667,
+      "lon": 99.1167
+    },
+    "96043": {
+      "kota": "Kisaran",
+      "lat": 3,
+      "lon": 99.55
+    },
+    "96045": {
+      "kota": "Tapak Tuan / Teuku Alirasian",
+      "lat": 3.4667,
+      "lon": 97.3
+    },
+    "96055": {
+      "kota": "Penatang Siantar",
+      "lat": 2.95,
+      "lon": 99.0667
+    },
+    "96059": {
+      "kota": "Prapat / Sibisa Motung",
+      "lat": 2.1667,
+      "lon": 98.9333
+    },
+    "96065": {
+      "kota": "Tarutung",
+      "lat": 2.0167,
+      "lon": 98.95
+    },
+    "96073": {
+      "kota": "Sibolga / Pinangsori",
+      "lat": 1.55,
+      "lon": 98.8833
+    },
+    "96075": {
+      "kota": "Gunung Sitoli / Binaka",
+      "lat": 1.5,
+      "lon": 97.6333
+    },
+    "96087": {
+      "kota": "Batan, Sumatra",
+      "lat": 1.1167,
+      "lon": 104.1167
+    },
+    "96091": {
+      "kota": "Tanjungpinang / Kijang",
+      "lat": 0.9167,
+      "lon": 104.5333
+    },
+    "96109": {
+      "kota": "Pakanbaru / Simpangtiga",
+      "lat": 0.4667,
+      "lon": 101.45
+    },
+    "96145": {
+      "kota": "Tarempa",
+      "lat": 3.2,
+      "lon": 106.25
+    },
+    "96147": {
+      "kota": "Ranai / Ranai",
+      "lat": 3.95,
+      "lon": 108.3833
+    },
+    "96163": {
+      "kota": "Padang / Tabing",
+      "lat": -0.8833,
+      "lon": 100.35
+    },
+    "96171": {
+      "kota": "Rengat / Japura",
+      "lat": 0.4667,
+      "lon": 102.3167
+    },
+    "96179": {
+      "kota": "Singkep / Dabo",
+      "lat": -0.4833,
+      "lon": 104.5833
+    },
+    "96195": {
+      "kota": "Jambi / Sultan Taha",
+      "lat": -1.6333,
+      "lon": 103.65
+    },
+    "96207": {
+      "kota": "Kerinci / Depati Parbo",
+      "lat": -2.7667,
+      "lon": 101.3667
+    },
+    "96221": {
+      "kota": "Palembang / Talangbetutu",
+      "lat": -2.9,
+      "lon": 104.7
+    },
+    "96237": {
+      "kota": "Pangkalpinang / Pangkalpinang",
+      "lat": -2.1667,
+      "lon": 106.1333
+    },
+    "96249": {
+      "kota": "Tanjungpandan / Buluh Tumbang",
+      "lat": -2.75,
+      "lon": 107.75
+    },
+    "96253": {
+      "kota": "Bengkulu / Padangkemiling",
+      "lat": -3.8833,
+      "lon": 102.3333
+    },
+    "96273": {
+      "kota": "Menggala / Astra Ksetra",
+      "lat": -4.45,
+      "lon": 105.1833
+    },
+    "96295": {
+      "kota": "Telukbetung / Beranti",
+      "lat": -5.2667,
+      "lon": 105.1833
+    },
+    "96505": {
+      "kota": "Longbawan / Juvai Semaring",
+      "lat": 3.7333,
+      "lon": 115.6833
+    },
+    "96509": {
+      "kota": "Tarakan / Juwata",
+      "lat": 3.3333,
+      "lon": 117.5667
+    },
+    "96525": {
+      "kota": "Tanjung Selor",
+      "lat": 2.85,
+      "lon": 117.3333
+    },
+    "96529": {
+      "kota": "Tanjung Redep / Berau",
+      "lat": 2.1167,
+      "lon": 117.45
+    },
+    "96533": {
+      "kota": "Singkawang Ii",
+      "lat": 1.0833,
+      "lon": 109.6667
+    },
+    "96535": {
+      "kota": "Paloh",
+      "lat": -1.7,
+      "lon": 109.3
+    },
+    "96539": {
+      "kota": "Long Nawan",
+      "lat": 1.8167,
+      "lon": 114.9
+    },
+    "96557": {
+      "kota": "Nangapinoh",
+      "lat": -0.35,
+      "lon": 111.7833
+    },
+    "96559": {
+      "kota": "Sintang",
+      "lat": 0.1167,
+      "lon": 111.5333
+    },
+    "96565": {
+      "kota": "Putusibau",
+      "lat": 0.8833,
+      "lon": 112.9333
+    },
+    "96577": {
+      "kota": "Sangkulirang",
+      "lat": 1,
+      "lon": 118
+    },
+    "96581": {
+      "kota": "Pontianak / Supadio",
+      "lat": -0.15,
+      "lon": 109.4
+    },
+    "96595": {
+      "kota": "Muaratewe / Beringin",
+      "lat": -0.95,
+      "lon": 114.9
+    },
+    "96597": {
+      "kota": "Longiram",
+      "lat": -1.6333,
+      "lon": 114.8333
+    },
+    "96607": {
+      "kota": "Samarinda / Temindung",
+      "lat": -0.6167,
+      "lon": 117.15
+    },
+    "96615": {
+      "kota": "Ketapang / Rahadi Usmaman",
+      "lat": -1.85,
+      "lon": 109.9667
+    },
+    "96633": {
+      "kota": "Balikpapan / Sepinggan",
+      "lat": -1.2667,
+      "lon": 116.9
+    },
+    "96639": {
+      "kota": "Tanahgrogot",
+      "lat": -2.2,
+      "lon": 116.3167
+    },
+    "96645": {
+      "kota": "Pangkalan Bun / Iskandar",
+      "lat": -2.7,
+      "lon": 110.7
+    },
+    "96651": {
+      "kota": "Sampit / Haji Hasan",
+      "lat": -2.5167,
+      "lon": 112.95
+    },
+    "96655": {
+      "kota": "Palangkaraya / Panarung",
+      "lat": -1,
+      "lon": 114
+    },
+    "96685": {
+      "kota": "Banjarmasin / Syamsuddin Noor",
+      "lat": -3.4333,
+      "lon": 114.75
+    },
+    "96695": {
+      "kota": "Kotabaru",
+      "lat": -3.4,
+      "lon": 116.2167
+    },
+    "96737": {
+      "kota": "Serang",
+      "lat": -6.1167,
+      "lon": 106.1333
+    },
+    "96739": {
+      "kota": "Curug / Budiarto",
+      "lat": -6.2333,
+      "lon": 106.65
+    },
+    "96741": {
+      "kota": "Jakarta / Tanjung Priok",
+      "lat": -6.1,
+      "lon": 106.8667
+    },
+    "96745": {
+      "kota": "Jakarta / Observatory",
+      "lat": -6.1833,
+      "lon": 106.8333
+    },
+    "96747": {
+      "kota": "Jakarta Halim Perdanakusuma",
+      "lat": -6.25,
+      "lon": 106.9
+    },
+    "96749": {
+      "kota": "Jakarta / Soekarno-Hatta",
+      "lat": -6.1167,
+      "lon": 106.65
+    },
+    "96751": {
+      "kota": "Citeko / Puncak",
+      "lat": -6.7,
+      "lon": 106.9333
+    },
+    "96753": {
+      "kota": "Bogor / Dermaga",
+      "lat": -6.5,
+      "lon": 106.75
+    },
+    "96755": {
+      "kota": "Bogor / Atang Sanjaya",
+      "lat": -6.55,
+      "lon": 106.9
+    },
+    "96757": {
+      "kota": "Pulau Pari",
+      "lat": -5.85,
+      "lon": 106.6167
+    },
+    "96773": {
+      "kota": "Kalijati",
+      "lat": -6.55,
+      "lon": 107.6667
+    },
+    "96781": {
+      "kota": "Bandung / Husein",
+      "lat": -6.9,
+      "lon": 107.5833
+    },
+    "96783": {
+      "kota": "Bandung",
+      "lat": -6.8833,
+      "lon": 107.6
+    },
+    "96791": {
+      "kota": "Jatiwangi",
+      "lat": -6.75,
+      "lon": 108.2667
+    },
+    "96797": {
+      "kota": "Tegal",
+      "lat": -6.85,
+      "lon": 109.15
+    },
+    "96801": {
+      "kota": "Tasikmalaya / Cibeureum",
+      "lat": -7.3333,
+      "lon": 108.25
+    },
+    "96805": {
+      "kota": "Cilacap",
+      "lat": -7.7333,
+      "lon": 109.0167
+    },
+    "96837": {
+      "kota": "Semarang",
+      "lat": -6.9667,
+      "lon": 110.4167
+    },
+    "96839": {
+      "kota": "Semarang / Ahmadyani",
+      "lat": -6.9833,
+      "lon": 110.3833
+    },
+    "96845": {
+      "kota": "Surakarta / Adisumarmo",
+      "lat": -7.8667,
+      "lon": 110.9167
+    },
+    "96853": {
+      "kota": "Jogyakarta / Adisucipto",
+      "lat": -7.7833,
+      "lon": 110.4333
+    },
+    "96857": {
+      "kota": "Pacitan",
+      "lat": -8.2,
+      "lon": 111.05
+    },
+    "96881": {
+      "kota": "Madiun / Iswahyudi",
+      "lat": -7.6167,
+      "lon": 111.5167
+    },
+    "96925": {
+      "kota": "Sangkapura Bawean Island",
+      "lat": -5.85,
+      "lon": 112.6333
+    },
+    "96933": {
+      "kota": "Surabaya / Perak",
+      "lat": -7.2167,
+      "lon": 112.7167
+    },
+    "96935": {
+      "kota": "Surabaya / Juanda",
+      "lat": -7.3667,
+      "lon": 112.7667
+    },
+    "96937": {
+      "kota": "Surabaya",
+      "lat": -7.2167,
+      "lon": 113.7167
+    },
+    "96947": {
+      "kota": "Malang / Abdul Rahkmansaleh",
+      "lat": -7.9667,
+      "lon": 112.7
+    },
+    "96973": {
+      "kota": "Kalianget Madura Island",
+      "lat": -7.05,
+      "lon": 113.9667
+    },
+    "96987": {
+      "kota": "Banyuwangi",
+      "lat": -8.2167,
+      "lon": 114.3833
+    },
+    "97004": {
+      "kota": "Malanguane",
+      "lat": 4.2167,
+      "lon": 126.7
+    },
+    "97008": {
+      "kota": "Tahuna",
+      "lat": 3.5833,
+      "lon": 125.4667
+    },
+    "97010": {
+      "kota": "Ulu Siau",
+      "lat": 2.6667,
+      "lon": 125.3333
+    },
+    "97014": {
+      "kota": "Menado / Dr. Sam Ratulangi",
+      "lat": 1.5333,
+      "lon": 124.9167
+    },
+    "97016": {
+      "kota": "Bitung",
+      "lat": 1.4333,
+      "lon": 125.1833
+    },
+    "97026": {
+      "kota": "Bolang Mongondaw",
+      "lat": 0.9833,
+      "lon": 124
+    },
+    "97028": {
+      "kota": "Toli-Toli / Lalos",
+      "lat": 1.0167,
+      "lon": 120.8
+    },
+    "97048": {
+      "kota": "Gorontalo / Jalaluddin",
+      "lat": 0.5167,
+      "lon": 123.0667
+    },
+    "97072": {
+      "kota": "Palu / Mutiara",
+      "lat": -0.6833,
+      "lon": 119.7333
+    },
+    "97086": {
+      "kota": "Luwuk / Bubung",
+      "lat": -0.9,
+      "lon": 122.7833
+    },
+    "97096": {
+      "kota": "Poso / Kasiguncu",
+      "lat": -1.3833,
+      "lon": 120.7333
+    },
+    "97100": {
+      "kota": "Kolonedale",
+      "lat": -2,
+      "lon": 121.3167
+    },
+    "97114": {
+      "kota": "Soroako / Luwu",
+      "lat": -2.5333,
+      "lon": 121.35
+    },
+    "97120": {
+      "kota": "Majene",
+      "lat": -2.5,
+      "lon": 119
+    },
+    "97126": {
+      "kota": "Masamba",
+      "lat": -2.55,
+      "lon": 120.3667
+    },
+    "97142": {
+      "kota": "Kolaka / Poma",
+      "lat": -4.3,
+      "lon": 121.5333
+    },
+    "97146": {
+      "kota": "Kendari / Woltermon-Ginsidi",
+      "lat": -4.1,
+      "lon": 122.4333
+    },
+    "97180": {
+      "kota": "Ujung Pandang / Hasanuddin",
+      "lat": -5.0667,
+      "lon": 119.55
+    },
+    "97182": {
+      "kota": "Ujang Pandang",
+      "lat": -5.0667,
+      "lon": 119.55
+    },
+    "97192": {
+      "kota": "Bau-Bau / Beto Ambiri",
+      "lat": -5.4667,
+      "lon": 122.6167
+    },
+    "97230": {
+      "kota": "Denpasar / Ngurah-Rai",
+      "lat": -8.75,
+      "lon": 115.1667
+    },
+    "97240": {
+      "kota": "Ampenan / Selaparang",
+      "lat": -8.5333,
+      "lon": 116.0667
+    },
+    "97260": {
+      "kota": "Sumbawa Besar / Sumbawa Besar",
+      "lat": -8.4333,
+      "lon": 117.4167
+    },
+    "97270": {
+      "kota": "Bima",
+      "lat": -8.55,
+      "lon": 118.7
+    },
+    "97284": {
+      "kota": "Ruteng / Satartacik",
+      "lat": -8.6333,
+      "lon": 120.45
+    },
+    "97290": {
+      "kota": "Endeh",
+      "lat": -8.8,
+      "lon": 121.6
+    },
+    "97300": {
+      "kota": "Maumere / Wai Oti",
+      "lat": -8.6333,
+      "lon": 122.25
+    },
+    "97310": {
+      "kota": "Larantuka",
+      "lat": -8.2667,
+      "lon": 122.9667
+    },
+    "97320": {
+      "kota": "Alor / Mali",
+      "lat": -8.2167,
+      "lon": 124.5667
+    },
+    "97330": {
+      "kota": "Wonreli",
+      "lat": -8.0667,
+      "lon": 127.2
+    },
+    "97340": {
+      "kota": "Waingapu / Mau Hau",
+      "lat": -9.6667,
+      "lon": 120.3333
+    },
+    "97372": {
+      "kota": "Kupang / El Tari",
+      "lat": -10.1667,
+      "lon": 123.6667
+    },
+    "97374": {
+      "kota": "Atambua / Haliwen",
+      "lat": -9.3333,
+      "lon": 124.9
+    },
+    "97378": {
+      "kota": "Rote / Baa",
+      "lat": -10.7333,
+      "lon": 123.0667
+    },
+    "97380": {
+      "kota": "Sabu / Tardamu",
+      "lat": -10.5,
+      "lon": 121.8333
+    },
+    "97404": {
+      "kota": "Morotai / Pitu",
+      "lat": 2.05,
+      "lon": 129.3167
+    },
+    "97406": {
+      "kota": "Galela / Gamarmalamu",
+      "lat": 1.8167,
+      "lon": 127.8333
+    },
+    "97410": {
+      "kota": "Kau",
+      "lat": 1.1667,
+      "lon": 127.8833
+    },
+    "97430": {
+      "kota": "Ternate / Babullah",
+      "lat": 0.7833,
+      "lon": 127.3833
+    },
+    "97438": {
+      "kota": "Weda",
+      "lat": 0.35,
+      "lon": 127.9167
+    },
+    "97450": {
+      "kota": "Mapia Island",
+      "lat": 0.8333,
+      "lon": 134.3
+    },
+    "97460": {
+      "kota": "Labuha / Taliabu",
+      "lat": -1.6167,
+      "lon": 124.55
+    },
+    "97502": {
+      "kota": "Sorong / Jefman",
+      "lat": -0.9333,
+      "lon": 131.1167
+    },
+    "97530": {
+      "kota": "Manokwari / Rendani",
+      "lat": -0.8833,
+      "lon": 134.05
+    },
+    "97560": {
+      "kota": "Biak / Mokmer",
+      "lat": -1.1833,
+      "lon": 136.1167
+    },
+    "97570": {
+      "kota": "Serui / Yendosa",
+      "lat": -1.8667,
+      "lon": 136.2333
+    },
+    "97580": {
+      "kota": "Sarmi",
+      "lat": -1.8333,
+      "lon": 138.7167
+    },
+    "97600": {
+      "kota": "Sanana",
+      "lat": -2.0833,
+      "lon": 126
+    },
+    "97630": {
+      "kota": "Fak-Fak / Torea",
+      "lat": -2.8833,
+      "lon": 132.25
+    },
+    "97682": {
+      "kota": "Nabire",
+      "lat": -3.3333,
+      "lon": 135.5
+    },
+    "97686": {
+      "kota": "Wamena / Wamena",
+      "lat": -4.0667,
+      "lon": 138.95
+    },
+    "97690": {
+      "kota": "Jayapura / Sentani",
+      "lat": -2.5667,
+      "lon": 140.4833
+    },
+    "97698": {
+      "kota": "Jayapura",
+      "lat": -2.3667,
+      "lon": 140.7167
+    },
+    "97700": {
+      "kota": "Namlea",
+      "lat": -3.25,
+      "lon": 127.0833
+    },
+    "97722": {
+      "kota": "Amahai",
+      "lat": -3.35,
+      "lon": 128.8833
+    },
+    "97724": {
+      "kota": "Ambon / Pattimura",
+      "lat": -3.7,
+      "lon": 128.0833
+    },
+    "97748": {
+      "kota": "Geser",
+      "lat": -3.8,
+      "lon": 130.8333
+    },
+    "97760": {
+      "kota": "Kaimana / Utarom",
+      "lat": -3.6667,
+      "lon": 133.75
+    },
+    "97780": {
+      "kota": "Enarotali",
+      "lat": -3.9167,
+      "lon": 136.3667
+    },
+    "97790": {
+      "kota": "Neira",
+      "lat": -4.5333,
+      "lon": 129.9
+    },
+    "97796": {
+      "kota": "Kokonao / Timuka",
+      "lat": -4.7167,
+      "lon": 136.4333
+    },
+    "97810": {
+      "kota": "Tual / Dumatubun",
+      "lat": -5.6833,
+      "lon": 132.75
+    },
+    "97876": {
+      "kota": "Tanah Merah / Tanah Merah",
+      "lat": -6.1,
+      "lon": 140.3
+    },
+    "97890": {
+      "kota": "Tepa",
+      "lat": -7.8333,
+      "lon": 129.6667
+    },
+    "97900": {
+      "kota": "Saumlaki",
+      "lat": -7.9833,
+      "lon": 131.3
+    },
+    "97980": {
+      "kota": "Merauke / Mopah",
+      "lat": -8.4667,
+      "lon": 140.3833
+    }
+  }
