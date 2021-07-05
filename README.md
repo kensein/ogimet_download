@@ -5,5 +5,5 @@ How to use:
 1. Download ogimet_download.py and stasiun.json, save them in the same folder
 2. Open cmd as administrator
 3. Change directory to the ogimet_download.py folder
-4. Type ogimet_download.py -b <beginyear> -e <endyear>, format for beginyear and endyear: yyyy
+4. Type ogimet_download.py -b "beginyear" -e "endyear", format for beginyear and endyear: yyyy
 5. Goodluck!
