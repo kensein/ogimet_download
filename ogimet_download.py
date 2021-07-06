@@ -59,26 +59,35 @@ def main(argv):
             lat = stasiunj[wmo]['lat']
             lon = stasiunj[wmo]['lon']
             try:
-                for i in line[0:10]:
+                for i in line[3:10]:
                     if i[0] == "1":
                         code_T = i
                         T = int(code_T[-3:])/10
+                    else:
+                        code_T = float('NaN')
+                        T = float('NaN')
             except:
-                T = float('NaN')
+                pass
             try:
-                for i in line[0:10]:
+                for i in line[3:10]:
                     if i[0] == "2":
                         code_Td = i
                         Td = int(code_Td[-3:])/10
+                    else:
+                        code_Td = float('NaN')
+                        Td = float('NaN')
             except:
-                Td = float('NaN')
+                pass
             try:
-                for i in line[0:10]:
+                for i in line[4:10]:
                     if i[0] == "4":
                         code_press = i
                         press = 1000+(int(code_press[-4:])/10)
+                    else:
+                        code_press = float('NaN')
+                        press = float('NaN')
             except:
-                press = float('NaN')
+                pass
             lcl = 125*(T-Td)
             ccl = 212.7*(T-Td)
             syndata.append([wmo, YY, MM, DD, HH, date, lat, lon, code_T, code_Td, code_press, T, Td, press, lcl, ccl])
