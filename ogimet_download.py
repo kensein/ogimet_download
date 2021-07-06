@@ -16,8 +16,8 @@ from datetime import datetime
 import sys, getopt
 
 def main(argv):
-    beginyear = ''
-    endyear = ''
+    begindate = ''
+    enddate = ''
     try:
         opts, args = getopt.getopt(argv, "hb:e:", ["begin=", "end="])
     except getopt.GetoptError:
@@ -25,19 +25,19 @@ def main(argv):
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('ogimet_download.py -b <beginyear> -e <endyear>')
+            print('ogimet_download.py -b <yyyymmdd> -e <yyyymmdd>')
             sys.exit()
         elif opt in ("-b", "--begin"):
-            beginyear = arg
+            begindate = arg
         elif opt in ("-e", "--end"):
-            endyear = arg
+            enddate = arg
 
-    # time_format = '2019122903' # example time format
+    # time_format = '20191229' # example time format
     save_path = './' # directory at your own pc
     json_stat_path = './' # directory at your own pc
-    begin = beginyear + '010100'
-    end = endyear + '123123'
-    url = 'https://www.ogimet.com/cgi-bin/getsynop?begin=' + begin + '00&end=' + end + '59&state=Indonesia'
+    begin = begindate
+    end = enddate
+    url = 'https://www.ogimet.com/cgi-bin/getsynop?begin=' + begin + '0000&end=' + end + '2359&state=Indonesia'
     http = urllib3.PoolManager()
     res = http.request('GET',url)
     data = res.data.decode('utf-8').splitlines()
@@ -47,7 +47,7 @@ def main(argv):
     syndata = []
     for line in data:
         line = line.split(' ')
-        if not line[3] == 'NIL=':
+        if not line[1][-1:] == '=' or line[2][-1:] == '=' or line[3] == 'NIL=':
             col1 = line[0].split(' ')[0].split(',')
             wmo = col1[0]
             YY = col1[1]
@@ -84,7 +84,7 @@ def main(argv):
             syndata.append([wmo, YY, MM, DD, HH, date, lat, lon, code_T, code_Td, code_press, T, Td, press, lcl, ccl])
     syndf = pd.DataFrame(syndata,columns=cols)
     # syndf = syndf[syndf['wmo'].str.contains("96935")] # uncomment this line if you want to choose specific wmo_id
-    file_name = save_path + 'indonesian_synop_' + str(beginyear) + "_" + str(endyear) + ".csv"
+    file_name = save_path + 'indonesian_synop_' + str(begindate) + "_" + str(enddate) + ".csv"
     syndf.to_csv(file_name)
 
 if __name__ == "__main__":
