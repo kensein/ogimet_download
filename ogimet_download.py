@@ -14,6 +14,7 @@ import json
 import pandas as pd
 from datetime import datetime
 import sys, getopt
+import re
 
 def main(argv):
     begindate = ''
@@ -45,6 +46,12 @@ def main(argv):
     stasiunj = json.load(stasiun)
     cols = ['wmo_id', 'yy', 'mm', 'dd', 'hh', 'date', 'lat','lon', 'T_code', 'Td_code', 'Press_code', 'T','Td','Press', 'LCL', 'CCL']
     syndata = []
+    code_T = float('NaN')
+    code_Td = float('NaN')
+    code_press = float('NaN')
+    T = float('NaN')
+    Td = float('NaN')
+    press = float('NaN')
     for line in data:
         line = line.split(' ')
         if not line[1][-1:] == '=' or line[2][-1:] == '=' or line[3] == 'NIL=':
@@ -60,32 +67,23 @@ def main(argv):
             lon = stasiunj[wmo]['lon']
             try:
                 for i in line[3:10]:
-                    if i[0] == "1":
+                    if bool(re.match("^10...", i[0:5])) == True:
                         code_T = i
                         T = int(code_T[-3:])/10
-                    else:
-                        code_T = float('NaN')
-                        T = float('NaN')
             except:
                 pass
             try:
                 for i in line[3:10]:
-                    if i[0] == "2":
+                    if bool(re.match("^20...", i[0:5])) == True:
                         code_Td = i
                         Td = int(code_Td[-3:])/10
-                    else:
-                        code_Td = float('NaN')
-                        Td = float('NaN')
             except:
                 pass
             try:
                 for i in line[4:10]:
-                    if i[0] == "4":
+                    if bool(re.match("^4....", i[0:5])) == True:
                         code_press = i
                         press = 1000+(int(code_press[-4:])/10)
-                    else:
-                        code_press = float('NaN')
-                        press = float('NaN')
             except:
                 pass
             lcl = 125*(T-Td)
@@ -94,7 +92,7 @@ def main(argv):
     syndf = pd.DataFrame(syndata,columns=cols)
     # syndf = syndf[syndf['wmo'].str.contains("96935")] # uncomment this line if you want to choose specific wmo_id
     file_name = save_path + 'indonesian_synop_' + str(begindate) + "_" + str(enddate) + ".csv"
-    syndf.to_csv(file_name)
+    syndf.to_csv(file_name, index = False)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
